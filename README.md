@@ -1,4 +1,4 @@
-# Debugging a backend service written with TypeScript and uses threads
+# Debugging a backend service written with TypeScript and with threads
 This is a simple backend service project template written with TypeScript and uses threads. 
 
 [![Debugging Video Tutorial](https://img.youtube.com/vi/xxxx/0.jpg)](https://www.youtube.com/watch?v=xxxxx)
