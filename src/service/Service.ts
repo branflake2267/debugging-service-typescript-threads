@@ -21,7 +21,7 @@ class Service {
   private runThreads() {
     let thread1ProcessPrimes = this.runThread('Thread1', 0, 1000);
     let thread2ProcessPrimes = this.runThread('Thread2', 1000, 2000);
-    let thread3ProcessPrimes = this.runThread('Thread2', 2000, 3000);
+    let thread3ProcessPrimes = this.runThread('Thread3', 2000, 3000);
 
     // Wait until both threads are completed.
     return Promise.all([ thread1ProcessPrimes, thread2ProcessPrimes, thread3ProcessPrimes ]);
